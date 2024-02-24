@@ -50,6 +50,7 @@ public final class HeavenlyBody {
 
     @Override
     public int hashCode() {
+        System.out.println("Class: "+this.getName()+" "+"hashCode: "+this.getName().hashCode()+57);
         return this.getName().hashCode()+57;
     }
 }
